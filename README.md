@@ -26,7 +26,17 @@ This was my first exam at Noroff. The assignment was to create a blog site where
 
 ## Getting started
 
-_For the time being, this repo is not available for cloning. However, it will be when the project exam are finished being graded._
+### Installing
+
+1. Clone the repo:
+
+`git clone https://github.com/Mariannebp/the-adventures-of-a-photographer.git`
+
+2. `npm install`
+
+### Running
+
+3. `npm run start`
 
 ## Improvements
 
