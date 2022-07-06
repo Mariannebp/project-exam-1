@@ -1,73 +1,50 @@
-## Project Exam 1
+# Project Exam 1 - The Adventures of a Photographer
 
 ![Screen shot of project](/images/Photo-blog-topless_edt1.jpg)
 
-## Goal
+- Type: Project Exam 1
+- When: spring 2022
+- Where: Front End Development course, Noroff School of technology and digital media.
 
-To put into practice the skills learned over your first year of studies.
+## Description
 
-## Brief
+The Adventures of a Photographer is a blog depicting a photographers everyday photo life, which has the photos in main focus in the design. The blogs visitors will be able to get insight in both the professional and the private sides of the photographer, along with introductions to new equipments and tips and tricks for the average photographer. And of course enjoy the beautiful pictures.
 
-You have been tasked with creating a blog site. You can choose the design and topics covered on the blog, but it should have at least the following pages:
+This was my first exam at Noroff. The assignment was to create a blog site where I was free to choose the theme of the blog. The site was to have at least the following pages; home, list of blog posts, blog specific page, about, and contact. The blog posts were to be created in Wordpress, and then fetched to the site. The site was also to have certain functions such as
 
-- Home page
-- About page
-- List of blog posts
-- Blog post specific pages
-- Contact page.
+- a carousel to view more of the latest posts on the front page
+- a view more posts-button on the blog list page
+- modal on the blog specific page that shows a larger version of the image being clicked
+- validation on the contact page
 
-### Home Page
+## Built with
 
-The home page should have a ‘Latest Posts’ section which uses a carousel (slider) for users to click to view more posts. For example, by default the user can see four posts, then they can click an arrow on the right to view the next four posts, and click it again to view the next four posts. The user can also click back to view results they had previously seen. This must be implemented for desktop at least, but if you want a simpler layout for mobile, you can change it from being in a carousel.
+- HTML
+- CSS
+- JavaScript
+- Wordpress (API)
 
-### Blog Page
+## Getting started
 
-The blog posts page should show the first 10 blogs, and the user should click to view more results which then show underneath the first 10 blogs.
+_For the time being, this repo is not available for cloning. However, it will be when the project exam are finished being graded._
 
-### Blog Specific Page
+## Improvements
 
-The content of the blog specific page should be dynamically built using a query string parameter based on whatever link the user clicked. The title of the blog specific page should change based on the blog that has been clicked on e.g. “My Blog | An Article I Wrote”.
+#### What I have changed since delivery
 
-If images on the blog post page are clicked, a modal should appear giving the user a bigger view of that image. Clicking outside the image should hide the modal.
+- Copied the repo from the Noroff Github over to my personal GitHub account, making it public
+- Added a screen shot of the webpage to this readme-file.
 
-### Contact page
+## Contact
 
-Create a contact us page, there should be 4 textboxes on this page.
+Email:
+mariannebpedersen@gmail.com
 
-- Name (Should be more than 5 characters long)
-- Email address (Must be a valid email address)
-- Subject (Should be more than 15 characters long)
-- Message content (Should be more than 25 characters long)
+Link to the project website:
+https://mariannebp-pe1-photoblog.netlify.app/index.html
 
-Please use JavaScript for validation, show error messages if the values in the textboxes do not meet the requirements.
+## Acknowledgements
 
-### WordPress
-
-The content for your website will be stored on a WordPress installation used as a Headless CMS. It’s important to note that we are only using WordPress to provide an API and add content for the blog. You should not submit a link to a WordPress site, but build your website using HTML, CSS and JavaScript and making a call to the WordPress REST API to fetch the data.
-
-The project has two aspects:
-
-- API from your WordPress installation
-- Your website built with HTML, CSS and JavaScript
-
-You will need to add at least 12 blogs for your website. You can use lorem ipsum for paragraphs if you need, but headings, images etc. should all make sense.
-
-Note that this is an exam, and therefore tutor support will be limited as per the study plan.
-
-## Level 1 Process
-
-1. Decide on the theme for the blog you’re going to make
-2. Create a prototype of the website
-3. Install WordPress on your web host and add the blogs on the admin panel.
-4. Use the GitHub repo created by GitHub Classroom for your files and deploy to Netlify
-5. Build your website using HTML, CSS and JavaScript making a call to the WordPress REST API to fetch your data.
-6. Install Hotjar on your website.
-7. Ask users to test your website, and adjust based on their feedback and any insights from Hotjar.
-8. Write a report documenting your project (template provided in this repository).
-9. Submit your report as a PDF and a link to both your Netlify deployment and your GitHub repo.
-
-## Level 2 Process (optional)
-
-1. You can try adding a sort, filter, or search to the blog posts page allowing users to find the blog post more easily that they’re looking for.
-2. Post the data from the contact form to WordPress so you have the details saved.
-3. Allow users to submit comments on a blog post, and post this data to WordPress
+- https://font.google.com
+- https://dev.w3.org/html5/html-author/charref
+- https://pixabay.com/ - all images downloaded here with no attribution needed.
