@@ -1,0 +1,77 @@
+.home-logo {
+  margin: 85px 0px 20px 0px;
+}
+
+.home-logo_text {
+  margin: 30px 80px;
+}
+
+.home-logo p {
+  font-size: 1.5em;
+
+}
+
+.home-logo .home-logo_text-large {
+  font-size: 3.5em;
+  margin-top: 10px;
+
+}
+
+.home-welcome {
+  margin-bottom: 60px;
+}
+
+
+/* Carousel */
+.home-carousel {
+  margin-left: 5px;
+}
+
+.home-carousel-container {
+  width: 1000px; 
+  margin: 0 auto 0 auto;
+  overflow: hidden;
+}
+
+.home-carousel-content {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  transition: all 0.5s ease-in-out;
+}
+
+.home-carousel-content-cards {
+  width: 228px;
+  height: 340px;
+  padding: 0;
+  display: grid;
+  justify-items: center;
+  align-content: space-between;
+}
+
+.home-carousel-content a {
+  margin: auto 10px;
+}
+
+.home-carousel-content-cards h3 {
+  font-size: 1.9em;
+  margin: 20px 7px 0px 7px;
+}
+
+.home-carousel-content-cards img {
+  width: 200px;
+  margin: auto auto 20px auto;
+}
+
+button {
+  height: 35px;
+  width: 80px;
+  margin: 40px 5px 40px 10px;
+  padding-bottom: 7px;
+  font-size: 2.5em;
+  line-height: 0;
+  float: right;
+}
+
+.home-carousel-newer {
+  display: none;
+}

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Contact Me" />
+    <title>Photographer blog | Contact Me</title>
+    <link rel="icon" href="Images/colorful-gab5534967_640_edt.png" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <!-- Hotjar Tracking Code for https://mariannebp-pe1-photoblog.netlify.app/index.html -->
+    <script>
+      (function (h, o, t, j, a, r) {
+        h.hj =
+          h.hj ||
+          function () {
+            (h.hj.q = h.hj.q || []).push(arguments);
+          };
+        h._hjSettings = { hjid: 2969954, hjsv: 6 };
+        a = o.getElementsByTagName("head")[0];
+        r = o.createElement("script");
+        r.async = 1;
+        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+        a.appendChild(r);
+      })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
+    </script>
+  </head>
+  <body>
+    <header>
+      <div class="navigation">
+        <nav>
+          <ul>
+            <li class="nav_hover"><a href="index.html">Home</a></li>
+            <li class="nav_hover"><a href="blogposts.html">Blog Posts</a></li>
+            <li class="nav_hover"><a href="about.html">About</a></li>
+            <li class="nav_hover">
+              <a href="contact.html" class="active">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <a href="index.html">
+        <div class="logo">
+          <div class="logo_text">
+            <p>The Adventures of a</p>
+            <p class="logo_text-large">Photographer</p>
+          </div>
+        </div>
+      </a>
+    </header>
+    <main>
+      <div class="contact">
+        <h1>Contact Me</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Et sapiente
+          eius ratione fuga nisi enim, corporis consequatur consectetur quisquam
+          cumque similique minima asperiores magnam maiores explicabo, unde
+          reiciendis architecto. Veniam.
+        </p>
+
+        <form class="form">
+          <div class="message"></div>
+          <div>
+            <label class="contact_form">
+              Name
+              <input
+                type="text"
+                name="fullName"
+                id="fullName"
+                class="contact_form"
+              />
+            </label>
+            <div class="errorMessage" id="errorMessage_fullName">
+              You must enter at least 5 characters
+            </div>
+          </div>
+          <div>
+            <label class="contact_form">
+              Email
+              <input type="text" name="email" id="email" class="contact_form" />
+            </label>
+            <div class="errorMessage" id="errorMessage_email">
+              You must enter a valid email address
+            </div>
+          </div>
+          <div>
+            <label class="contact_form">
+              Subject
+              <input
+                type="text"
+                name="subject"
+                id="subject"
+                class="contact_form"
+              />
+            </label>
+            <div class="errorMessage" id="errorMessage_subject">
+              You must enter at least 15 characters
+            </div>
+          </div>
+          <div>
+            <label class="contact_form">
+              Message
+              <textarea
+                id="message"
+                name="message"
+                class="contact_form"
+              ></textarea>
+            </label>
+            <div class="errorMessage" id="errorMessage_textarea">
+              You must enter at least 25 characters
+            </div>
+          </div>
+
+          <button>Send</button>
+        </form>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; Marianne Bjerløv Pedersen</p>
+    </footer>
+    <script src="js/contact.js"></script>
+  </body>
+</html>

@@ -1,0 +1,43 @@
+.posts-container,
+.post {
+  width: 800px;
+}
+
+.posts-container {
+  margin: auto;
+}
+
+.posts {
+  display: grid;
+  justify-content: center;
+}
+
+.posts a {
+  margin-bottom: 50px;
+}
+
+.post {
+  padding: 0px;
+}
+
+.post h2 {
+  margin: 25px 20px;
+}
+
+.post-date {
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+.thumbnail {
+  width: 250px;
+  margin: 20px auto;
+}
+
+button {
+  width: 200px;
+  height: 40px;
+  margin: 20px 0;
+  font-size: 1em;
+  float: right;
+}

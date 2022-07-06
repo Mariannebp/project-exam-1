@@ -1,0 +1,8 @@
+:root {
+  --white: #fff;
+  --grey: #50545D;
+  --golden: #E3BCA2;
+  --error-red: #ff5050;
+  --nav-background: rgba(0, 0, 0, 0.5);
+  --modal-background: rgba(0, 0, 0, 0.8);
+}
