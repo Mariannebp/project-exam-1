@@ -32,11 +32,7 @@ This was my first exam at Noroff. The assignment was to create a blog site where
 
 `git clone https://github.com/Mariannebp/the-adventures-of-a-photographer.git`
 
-2. `npm install`
-
-### Running
-
-3. `npm run start`
+2. `npm i`
 
 ## Improvements
 
